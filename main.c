@@ -4,6 +4,7 @@
 int main()
 {
     printf("Weclome to File-Repository!\n");
+    printf("Now date and time:\n");
     time_t mytime;
     struct tm *mylocaltime;
     mytime = time(NULL);
